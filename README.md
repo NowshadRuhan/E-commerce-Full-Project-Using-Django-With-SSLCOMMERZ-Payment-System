@@ -13,3 +13,6 @@ Django-crispy-forms supports several frontend frameworks, such as Twitter Bootst
 
 **Install latest stable version into your python environment using pip:**
 - pip install django-crispy-forms
+
+**If you want to install development version (unstable), you can do so doing:**
+- pip install git+git://github.com/django-crispy-forms/django-crispy-forms.git@dev#egg=django-crispy-forms
