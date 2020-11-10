@@ -39,3 +39,8 @@ In Django, files which are uploaded by the user are called Media or Media Files.
 3. User's profile image. etc...
 
 **Just as with static files, to serve media files we have do add some configurations in our settings.py file.**
+
+#### Media Files Configurations:
+Media files depend upon two configurations,
+1. MEDIA_ROOT,
+2. MEDIA_URL
