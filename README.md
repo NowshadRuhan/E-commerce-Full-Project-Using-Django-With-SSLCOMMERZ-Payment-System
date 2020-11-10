@@ -31,3 +31,9 @@ INSTALLED_APPS = (
 #bootstrap, bootstrap3, bootstrap4, uni-from
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 ```
+
+### About Media Files in Django:
+In Django, files which are uploaded by the user are called Media or Media Files. Here are some examples:
+1. A user uploaded image, pdfs, doc files etc while publishing a post.
+2. Images of products in an e-commerce site.
+3. User's profile image. etc...
