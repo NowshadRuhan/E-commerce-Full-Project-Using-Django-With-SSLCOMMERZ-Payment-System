@@ -44,3 +44,13 @@ In Django, files which are uploaded by the user are called Media or Media Files.
 Media files depend upon two configurations,
 1. MEDIA_ROOT,
 2. MEDIA_URL
+
+**In settings.py file:**
+```
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
+
+MEDIA_ROOT  = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+```
