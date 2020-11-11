@@ -32,18 +32,6 @@ INSTALLED_APPS = (
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 ```
 
-**In the main project urls.py file:**
-```
-from django.conf.urls import url, include
-from django.contrib import admin
-from django.conf import settings
-from django.conf.urls.static import static
-
-urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-```
-
 ### About Media Files in Django:
 In Django, files which are uploaded by the user are called Media or Media Files. Here are some examples:
 1. A user uploaded image, pdfs, doc files etc while publishing a post.
@@ -65,4 +53,15 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT  = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+```
+**In the main project urls.py file:**
+```
+from django.conf.urls import url, include
+from django.contrib import admin
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns = [
+    url(r'^admin/', admin.site.urls),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ```
