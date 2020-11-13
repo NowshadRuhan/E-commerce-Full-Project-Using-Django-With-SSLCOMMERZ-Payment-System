@@ -65,3 +65,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ```
+### About Static File in Django:
+In static folder we store our all of css, js, bootstrap file to use those file in our project.
