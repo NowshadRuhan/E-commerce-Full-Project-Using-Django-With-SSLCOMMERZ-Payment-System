@@ -72,3 +72,7 @@ In static folder we store our all of css, js, bootstrap file to use those file i
 ```
 from django.conf import settings
 ```
+**static and static_url added**
+```
+from django.conf.urls.static import static
+```
