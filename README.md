@@ -53,6 +53,7 @@ STATICFILES_DIRS = [
 MEDIA_ROOT  = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 ```
+
 **In the main project urls.py file:**
 ```
 from django.conf.urls import url, include
