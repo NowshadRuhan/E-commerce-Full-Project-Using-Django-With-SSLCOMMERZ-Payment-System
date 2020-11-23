@@ -83,5 +83,5 @@ from django.conf.urls.static import static
 ```
 # About Project Apps:
  
-   **In this project i used four web-app this are App_Login, App_Shop, App_Order & App_Payment .**
+   **In this project i used four web-app this are App_Login, App_Shop, App_Order & App_Payment. And database i used in this project is sqlite-3.**
    
