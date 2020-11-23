@@ -81,3 +81,7 @@ from django.conf.urls.static import static
 ```
 {% load static %}
 ```
+# About Project Apps:
+ 
+   **In this project i used four web-app this are App_Login, App_Shop, App_Order & App_Payment .**
+   
