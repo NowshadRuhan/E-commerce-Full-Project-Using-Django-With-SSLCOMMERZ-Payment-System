@@ -84,3 +84,9 @@ from django.conf.urls.static import static
 # About Project Apps:
    **In this project i used four web-app this are App_Login, App_Shop, App_Order & App_Payment. And database i used in this project is sqlite-3.**
    
+1. App-Login:
+   - In app-login i make a fully custom model for login and registation. Where i create one custom model name is Profile and it is connected with User model by One To One connection. 
+   
+   
+   
+   
