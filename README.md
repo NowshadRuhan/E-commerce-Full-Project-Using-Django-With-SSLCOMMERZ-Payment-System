@@ -86,6 +86,8 @@ from django.conf.urls.static import static
    
 1. App-Login:
    - In app-login i make a fully custom model for login and registation. Where i create one custom model name is Profile and it is connected with User model by One To One connection. 
+   - Also  I used email as a unique field for this project. For unique email i need to customize Django user model. I used BaseUserManager, AbstractBaseUser, PermissionsMixin for customized user model.
+    
    
    
    
