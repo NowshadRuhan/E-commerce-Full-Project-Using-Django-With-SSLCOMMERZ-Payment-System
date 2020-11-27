@@ -1,7 +1,7 @@
 # E-commerce Full Project Using Django With SSLCOMMERZ Payment System
  This e-commerce project is full solution for any kind of e-commerce business.I used in this project django as framework and sslcommerz as payment. SSLCOMMERZ for bangladesh payment system.If you want i will implement any kind of payment gateway in this project, like Paypal, Stripe, Nochex etc.
  
- ![Quick-Share-Profile](https://github.com/NowshadRuhan/E-commerce-Full-Project-Using-Django-With-SSLCOMMERZ-Payment-System/blob/main/home.png?raw=true) 
+ ![E-commerce Full Project](https://github.com/NowshadRuhan/E-commerce-Full-Project-Using-Django-With-SSLCOMMERZ-Payment-System/blob/main/home.png?raw=true) 
  
  ## About Project:
 **In this project i used  four apps, media folder, static folder, templates and others pip library/packages, And most important sslcommerz for payment system.**
@@ -90,6 +90,8 @@ from django.conf.urls.static import static
    - In app-login i also used two custom forms for profile model and user login model. The forms are Sign-Up-Form and Profile-Form.
    - For Sign-Up-Form I also used Django auth class UserCreationForm.
    - Though, it's a e-commerce project, so that I used email and password for login and registation. And all others profile things need to update after login.
+   
+    ![E-commerce Full Project](https://github.com/NowshadRuhan/E-commerce-Full-Project-Using-Django-With-SSLCOMMERZ-Payment-System/blob/main/e-commerce-login-auth.png?raw=true) 
    
    
     
