@@ -93,6 +93,8 @@ from django.conf.urls.static import static
    
     ![E-commerce Full Project](https://github.com/NowshadRuhan/E-commerce-Full-Project-Using-Django-With-SSLCOMMERZ-Payment-System/blob/main/e-commerce-login-auth.png?raw=true) 
    
+2. App-Shop:
+   - In app-shop I create two custom model. One of Category and other on is Product.
    
     
    
