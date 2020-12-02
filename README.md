@@ -95,7 +95,7 @@ from django.conf.urls.static import static
    
 2. App-Shop:
    - In app-shop I create two custom model. One of Category and other on is Product.
-   - Category model used for make product in Category wise. example: Food, Clothing, Music etc..
+   - Category model used for make product in Category wise. example: Food, Clothing, Music etc.
    - Product model used for store all kind of product details.
    - Relationship in Category and Product is (Category -< Product One-To-Many).
    
