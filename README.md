@@ -99,6 +99,7 @@ from django.conf.urls.static import static
    - Product model used for store all kind of product details.
    - Relationship in Category and Product is (Category-<Product One-To-Many) .
 
+3. App-Order:
    
    
    
