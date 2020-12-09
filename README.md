@@ -102,6 +102,8 @@ from django.conf.urls.static import static
 3. App-Order:
    - In app-order I create two model for store ordering data.  
    - The models are Cart model and Order model.
+   - In django there are no custem cart for using cart to e-commerce I created cart model.
+  
    
    
    
