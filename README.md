@@ -100,7 +100,7 @@ from django.conf.urls.static import static
    - Relationship in Category and Product is (Category-<Product One-To-Many) .
 
 3. App-Order:
-   
+   - In app-order I create two model for store ordering data.  
    
    
    
