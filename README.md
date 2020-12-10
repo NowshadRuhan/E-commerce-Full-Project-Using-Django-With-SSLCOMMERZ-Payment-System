@@ -1,7 +1,7 @@
 # E-commerce Full Project Using Django With SSLCOMMERZ Payment System
  This e-commerce project is full solution for any kind of e-commerce business.I used in this project django as framework and sslcommerz as payment. SSLCOMMERZ for bangladesh payment system.If you want i will implement any kind of payment gateway in this project, like Paypal, Stripe, Nochex etc.
  
- ![Quick-Share-Profile](https://github.com/NowshadRuhan/E-commerce-Full-Project-Using-Django-With-SSLCOMMERZ-Payment-System/blob/main/home.png?raw=true) 
+ ![E-commerce Full Project](https://github.com/NowshadRuhan/E-commerce-Full-Project-Using-Django-With-SSLCOMMERZ-Payment-System/blob/main/home.png?raw=true) 
  
  ## About Project:
 **In this project i used  four apps, media folder, static folder, templates and others pip library/packages, And most important sslcommerz for payment system.**
@@ -25,7 +25,7 @@ INSTALLED_APPS = (
     'crispy_forms',
 )
 ```
-**For add template packs within django-crispy-forms: **
+**For add template packs within django-crispy-forms:**
 ```
 #bootstrap, bootstrap3, bootstrap4, uni-from
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
@@ -86,14 +86,25 @@ from django.conf.urls.static import static
    
 1. App-Login:
    - In app-login i make a fully custom model for login and registation. Where i create one custom model name is Profile and it is connected with User model by One To One connection. 
-   - Also  I used email as a unique field for this project. For unique email i need to customize Django user model. I used BaseUserManager, AbstractBaseUser, PermissionsMixin for customized user model.
+   - Also  I used email as a unique field for this project. For unique email i need to customize Django user model.I used BaseUserManager, AbstractBaseUser, PermissionsMixin for customized user model.
    - In app-login i also used two custom forms for profile model and user login model. The forms are Sign-Up-Form and Profile-Form.
    - For Sign-Up-Form I also used Django auth class UserCreationForm.
-   - Though, it's a e-commerce project, so that I used email and password for login and registation. And all others profile things need to update after login.
+   - Though, it's a e-commerce project, so that I used email and password for login and registation.And all others profile things need to update after login.
    
+    ![E-commerce Full Project](https://github.com/NowshadRuhan/E-commerce-Full-Project-Using-Django-With-SSLCOMMERZ-Payment-System/blob/main/e-commerce-login-auth.png?raw=true) 
    
-    
-   
+2. App-Shop:
+   - In app-shop I create two custom model. One of Category and other on is Product.
+   - Category model used for make product in Category wise. example: Food, Clothing, Music etc.
+   - Product model used for store all kind of product details.
+   - Relationship in Category and Product is (Category-<Product One-To-Many) .
+
+3. App-Order:
+   - In app-order I create two model for store ordering data.  
+   - The models are Cart model and Order model.
+   - In django there are no custem cart for using cart to e-commerce I created cart model.
+   - Relationship in Cart and Order is (Cart>-<Order Many-To-Many) .
+  
    
    
    
