@@ -104,8 +104,14 @@ from django.conf.urls.static import static
    - The models are Cart model and Order model.
    - In django there are no custem cart for using cart to e-commerce I created cart model.
    - Relationship in Cart and Order is (Cart>-<Order Many-To-Many) .
+   - Order model used to store order full information with payment id.
   
-  ![E-commerce Product](https://github.com/NowshadRuhan/E-commerce-Full-Project-Using-Django-With-SSLCOMMERZ-Payment-System/blob/main/product-ecommerce.png?raw=true) 
+   ![E-commerce Product](https://github.com/NowshadRuhan/E-commerce-Full-Project-Using-Django-With-SSLCOMMERZ-Payment-System/blob/main/product-ecommerce.png?raw=true) 
    
+   ![E-commerce Cart](https://github.com/NowshadRuhan/E-commerce-Full-Project-Using-Django-With-SSLCOMMERZ-Payment-System/blob/main/Cart_E-commerce.png?raw=true) 
+
+4. App-Payment:
+   - In app-payment i create one model for store billing information. 
+   - Model Billing Address is for app-payment. 
    
    
