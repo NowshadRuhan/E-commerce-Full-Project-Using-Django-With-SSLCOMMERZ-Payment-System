@@ -113,5 +113,5 @@ from django.conf.urls.static import static
 4. App-Payment:
    - In app-payment i create one model for store billing information. 
    - Model Billing Address is for app-payment. 
-   
+   ![E-commerce Check-out page](https://github.com/NowshadRuhan/E-commerce-Full-Project-Using-Django-With-SSLCOMMERZ-Payment-System/blob/main/checkout-page.png?raw=true)
    
