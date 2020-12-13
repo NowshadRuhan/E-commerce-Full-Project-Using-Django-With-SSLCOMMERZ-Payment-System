@@ -111,6 +111,6 @@ from django.conf.urls.static import static
 
 4. App-Payment:
    - In app-payment i create one model for store billing information. 
-   
+   - Model Billing Address is for app-payment. 
    
    
