@@ -110,6 +110,7 @@ from django.conf.urls.static import static
    ![E-commerce Cart](https://github.com/NowshadRuhan/E-commerce-Full-Project-Using-Django-With-SSLCOMMERZ-Payment-System/blob/main/Cart_E-commerce.png?raw=true) 
 
 4. App-Payment:
+   - In app-payment i create one model for store billing information. 
    
    
    
