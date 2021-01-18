@@ -124,7 +124,7 @@ from django.conf.urls.static import static
    
    
  # billpay-with-mobile-banking:
-![E-commerce billpay-with-mobile-banking]https://github.com/NowshadRuhan/E-commerce-Full-Project-Using-Django-With-SSLCOMMERZ-Payment-System/blob/main/billpay-with-mobile-banking.png?raw=true)
+![E-commerce billpay-with-mobile-banking](https://github.com/NowshadRuhan/E-commerce-Full-Project-Using-Django-With-SSLCOMMERZ-Payment-System/blob/main/billpay-with-mobile-banking.png?raw=true)
    
    
    
