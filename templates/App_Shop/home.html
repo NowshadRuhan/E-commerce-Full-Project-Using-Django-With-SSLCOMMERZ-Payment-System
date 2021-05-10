@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title_blog %} Home | e-Commerce {% endblock %}
+
+
+
+{% block body_block %}
+
+<div class="container my-5">
+  <span style="font-size: 25px; border-bottom:3px solid black;"><b>Featured Products</b></span>
+  <br><br>
+  <div class="row">
+    {% for product in object_list %}
+    <div class="col-md-6 col-sm-12 col-lg-3">
+      <figure class="card card-product">
+        <div class="img-wrap">
+          <img src="/media/{{ product.mainimage }}" alt="no image" style="width:100%;
+          height:300px; border:1px solid gray; border-style: ridge; border-radius:5px;">
+        </div>
+        <figcaption class="info-wrap" align="center">
+          <h6 class="title"><a href="{% url 'App_Shop:product' pk=product.pk  %}">{{ product.name }}</a></h6>
+          <div class="action-wrap" >
+            <div class="price-wrap h5" align="center">
+              <span class="price-new">&#2547; {{ product.price|floatformat:2 }} </span>
+              {% if product.old_price != 0.00 %}
+                <span class="price-old"><strike> &#2547; {{ product.old_price|floatformat:2 }} </strike></span>
+              {% endif %}
+            </div>
+          </div>
+        </figcaption>
+        <figcaption class="info-wrap" style=" margin-top:-5px;">
+          <div class="action-wrap" style="width:100%" >
+            <a href="{% url 'App_Order:addCart' pk=product.pk %}"><button type="button" style="width:100%" class="btn btn-success" name="add">
+                Add To Cart <i class="fa fa-shopping-cart"></i></button>
+            </a>
+          </div>
+        </figcaption>
+
+      </figure>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}
