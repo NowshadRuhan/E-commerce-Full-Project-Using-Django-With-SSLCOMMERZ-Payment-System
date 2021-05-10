@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title_blog %} Login | e-Commerce {% endblock %}
+{% block body_block %}
+
+
+
+  <h2><b>Login </b></h2>
+  <form  method="POST">
+
+    {{ form|crispy }}
+    {% csrf_token %}
+    <input type="submit" class="btn btn-primary" name="submit" value="SUBMIT">
+
+  </form>
+  <br>
+  <p style="font-size:16px; font-style: italic; color: gray;">
+    for signup click <a href="{% url 'App_Login:sign_up' %}">hare</a></p>
+
+
+
+
+
+{% endblock %}
